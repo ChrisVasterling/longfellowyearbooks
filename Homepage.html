@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Longfellow Yearbooks</title>
+	<link rel="stylesheet" type="text/css" href="Files/CSS/Main.css"/>
+	<script src="Files/Javascript/Main.js"></script>
+</head>
+<body>
+	<div class="sidebar">
+		<a href="http://www.ecasd.us/Longfellow-Elementary/Home" target="_blank"><img src="Files/Images/Other/Logo.jpg" class="Logo"></a>
+		<p>Yearbooks</p>
+		<a href="Files/HTML/kindergarten.html"><input type="button" class="ybbtn" value="Kindergarten"><img src="Files/Images/kindergarten/YB2_opt.jpg" class="ybimage"/></a>
+		<a href="Files/HTML/1st.html"><input type="button" class="ybbtn" value="1st Grade"><img src="Files/Images/1st/YB2_opt.jpg" class="ybimage"/></a>
+		<a href="Files/HTML/2nd.html"><input type="button" class="ybbtn" value="2nd Grade"><img src="Files/Images/2nd/YB2_opt.jpg" class="ybimage"/></a>
+		<a href="Files/HTML/3rd.html"><input type="button" class="ybbtn" value="3rd Grade"><img src="Files/Images/3rd/YB2_opt.jpg" class="ybimage"/></a>
+		<a href="Files/HTML/4th.html"><input type="button" class="ybbtn" value="4th Grade"><img src="Files/Images/4th/YB2_opt.jpg" class="ybimage"/></a>
+		<a href="Files/HTML/5th.html"><input type="button" class="ybbtn" value="5th Grade"><img src="Files/Images/5th/YB2_opt.jpg" class="ybimage"/></a>
+	</div>
+	<div class="header">
+		<a href="Files/HTML/teachers.html"><input type="button" class="hbtn" value="Teachers"/></a>
+		<a href="Files/HTML/students.html"><input type="button" class="hbtn" value="Students"/></a>
+		<a href="Files/HTML/more.html"><input type="button" class="hbtn" value="More"/></a>
+		<a href="Files/HTML/pano.html"><input type="button" class="hbtn" value="Panoramas"/></a>
+	</div>
+	<div class="content">
+		<p style="font-size:35px; text-align:center;">~Longfellow Elementary School Yearbooks~</p>  
+		<p style="font-size:20px; text-align:center;">*Images may take a few seconds to load*</p>
+		<div id="slideshow" class="slideshow">
+			<div id="scontrols" class="scontrols">
+				<button id="toggle" onclick=toggleFullScreen() class="sbtn">Fullscreen</button>
+				<br>
+				<br>
+				<button onclick="simg1sidplay(), clearInterval(slideshow)" id="img1" class="sbtn">Image 1</button>
+				<button onclick="simg2sidplay(), clearInterval(slideshow)" id="img2" class="sbtn">Image 2</button>
+				<button onclick="simg3sidplay(), clearInterval(slideshow)" id="img3" class="sbtn">Image 3</button>
+				<button onclick="simg4sidplay(), clearInterval(slideshow)" id="img4" class="sbtn">Image 4</button>
+				<button onclick="simg5sidplay(), clearInterval(slideshow)" id="img5" class="sbtn">Image 5</button>
+			</div>
+		</div>
+		<div class="sections">
+			<a href="Files/HTML/videos.html"><input type="button" class="fpbtn" value="Videos"></a>
+			<a href="Files/HTML/students.html"><input type="button" class="fpbtn" value="Students"></a>
+			<a href="Files/HTML/teachers.html"><input type="button" class="fpbtn" value="Teachers"></a>
+			<a href="Files/HTML/other.html"><input type="button" class="fpbtn" value="Other"></a>
+			<br>
+			<br>
+			<a href="Files/HTML/kindergarten.html"><input type="button" class="fsbtn" value="Kindergarten"></a>
+		<a href="Files/HTML/1st.html"><input type="button" class="fsbtn" value="1st Grade"></a>
+		<a href="Files/HTML/2nd.html"><input type="button" class="fsbtn" value="2nd Grade"></a>
+		<a href="Files/HTML/3rd.html"><input type="button" class="fsbtn" value="3rd Grade"></a>
+		<a href="Files/HTML/4th.html"><input type="button" class="fsbtn" value="4th Grade"></a>
+		<a href="Files/HTML/5th.html"><input type="button" class="fsbtn" value="5th Grade"></a>
+		</div>
+		<div class="footer">
+			<br>
+			This website was created and designed by <a href="http://chrisvasterling.weebly.com" target="_blank">Chris Vasterling</a>
+			<br>
+			<br>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,222 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-image:url("../Images/Other/background.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.sidebar {
+	position:absolute;
+	top:10px;
+	left:10px;
+	background-color:rgb(35, 35, 110);
+	height:calc(100% - 20px);
+	height:auto;
+	width:250px;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.videos {
+	margin:10px;
+}
+.pictures {
+	width:500px;
+	height:653px;
+	margin:15px;
+}
+.pictures-500 {
+	width:500px;
+	height:auto;
+	margin:15px;
+}
+.pano {
+	width:80%;
+	height:auto;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.panohead {
+	margin-left:10px;
+	font-size:30px;
+}
+.btt {
+	margin-left:calc(100% / 24);
+	margin-right:calc(100% / 24);
+	margin-bottom:10px;
+	margin-top:10px;
+	height:35px;
+	font-size:20px;
+	padding-right:2px;
+	padding-left:2px;
+	border:0px;
+}
+.sidebar > p {
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+.Logo {
+	width:100%;
+	margin-top:0px;
+	border-top-left-radius:15px;
+}
+.ybimage, .ybbtn {
+	margin-left:25px;
+	margin-right:25px;
+	width:200px;
+}
+.ybimage {
+	margin-bottom:20px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.ybbtn {
+	margin-bottom:0px;
+	border:0px;
+	font-size:23px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	padding:10px;
+	background-color:rgba(0,0,0,0.3);
+	color:white;
+	transition: background-color 0.3s linear;
+}
+.ybbtn:hover {
+	background-color:rgba(0,0,0,1);
+	cursor:pointer;
+}
+.header {
+	position:absolute;
+	top:10px;
+	left:260px;
+	height:75px;
+	background-color:rgb(255, 215, 0);
+	width:calc(100% - 270px);
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	margin-right:10px;
+	overflow:hidden;
+}
+.hbtn {
+	height:75px;
+	font-size:40px;
+	width:auto;
+	background-color:transparent;
+	border:0px;
+	margin-right:25px;
+	margin-left:25px;
+	text-decoration:none;
+	transition: background-color 0.2s linear;
+}
+.hbtn:hover {
+	background-color:white;
+	cursor:pointer;
+}
+.content {
+	position:absolute;
+	top:95px;
+	left:270px;
+	background-color:rgba(35, 35, 110, 0.8);
+	color:rgb(1000, 1000, 1000);
+	width:calc(100% - 280px);
+	height:auto;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+.footer {
+	width:100%;
+	height:60px;
+	background-color:rgba(0, 0, 0, 0.7);
+	text-align:center;
+	font-size:18px;
+	margin-bottom:-60px;
+	color:white;
+}
+.footer > a:visited {
+	color:blue;
+}
+.slideshow {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:40px;
+	width:calc(100% - 400px);
+	height:500px;
+	background-color:black;
+	background-image:url("../Images/Slideshow/1.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:10px;
+}
+.scontrols {
+	background-color:rgba(70, 70, 70, 0.8);
+	overflow-y:hidden;
+	height:100%;
+	width:170px;
+	text-decoration:none;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.sbtn {
+	border:0px;
+	width:150px;
+	padding:3px;
+	margin:10px;
+	font-size:25px;
+	cursor:pointer;
+}
+.fpbtn, .fsbtn {
+	height:75px;
+	min-width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:35px;
+	border:0px;
+	border-radius:5px;
+	text-decoration:none;
+	background-color:rgba(255, 215, 0, 0.5);
+	transition: background-color 0.2s linear;
+}
+.fsbtn {
+	display:none;
+}
+.fpbtn:hover, .fsbtn:hover {
+	background-color:rgba(255, 215, 0, 1);
+	cursor:pointer;
+}
+.sections {
+	width:60%;
+	margin-right:20%;
+	margin-left:20%;
+}
+@media screen and (max-width:1335px) {
+	body {
+		margin:0px;
+		padding:0px;
+	}
+	.sidebar {
+		display:none;
+	}
+	.header {
+		display:none;
+	}
+	.fsbtn {
+		display:block;
+	}
+	.content {
+		position:absolute;
+		top:0px;
+		left:0px;
+		background-color:rgba(35, 35, 110, 0.8);
+		color:rgb(1000, 1000, 1000);
+		width:100%;
+		height:auto;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+	}
+}
