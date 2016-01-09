@@ -161,6 +161,7 @@ body {
 	text-decoration:none;
 	border-top-left-radius:10px;
 	border-bottom-left-radius:10px;
+	z-index:1;
 }
 .sbtn {
 	border:0px;
@@ -218,5 +219,8 @@ body {
 		height:auto;
 		border-top-left-radius:0px;
 		border-top-right-radius:0px;
+	}
+	.slideshow {
+		display:none;
 	}
 }

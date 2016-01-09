@@ -65,7 +65,7 @@ function simg5sidplay() {
 	var ss  = document.getElementById("slideshow");
 	ss.style.backgroundImage = 'url(Files/Images/Slideshow/5_opt.jpg)';
 }
-var slideshow = setInterval(slideshow, 2500);
+var slideshow = setInterval(slideshow, 2500 /*5000?*/);
 var img = 0;
 var imgselect = 0;
 function slideshow() {
