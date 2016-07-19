@@ -52,8 +52,7 @@ function simg2sidplay() {
 	var ss  = document.getElementById("slideshow");
 	ss.style.backgroundImage = 'url(Files/Images/Slideshow/2_opt.jpg)';
 }
-function simg3sidplay()
-	{
+function simg3sidplay() {
 	var ss  = document.getElementById("slideshow");
 	ss.style.backgroundImage = 'url(Files/Images/Slideshow/3_opt.jpg)';
 }
