@@ -2,10 +2,10 @@ body {
 	margin:0px;
 	padding:0px;
 	background-image:url("../Images/Other/background.jpg");
-	background-position:center;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .sidebar {
 	position:absolute;
