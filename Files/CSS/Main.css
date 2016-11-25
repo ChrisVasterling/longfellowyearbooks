@@ -2,10 +2,16 @@ body {
 	margin:0px;
 	padding:0px;
 	background-image:url("../Images/Other/background.jpg");
+    /*
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    */
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .sidebar {
 	position:absolute;
